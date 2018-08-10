@@ -1,0 +1,165 @@
+2018-08-11 00:32:39.056  INFO 4164 --- [restartedMain] taufik.app.Application                   : Starting Application on DESKTOP-UDEKPNN with PID 4164 (D:\Taufik-Project\Project-Upload\src\main\webapp\WEB-INF\classes started by Taufik in D:\Taufik-Project\Project-Upload)
+2018-08-11 00:32:39.056  INFO 4164 --- [restartedMain] taufik.app.Application                   : The following profiles are active: dev
+2018-08-11 00:32:39.259  INFO 4164 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c076515: startup date [Sat Aug 11 00:32:39 ICT 2018]; root of context hierarchy
+2018-08-11 00:32:44.900  INFO 4164 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2018-08-11 00:32:44.947  INFO 4164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-11 00:32:44.947  INFO 4164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-08-11 00:32:45.634  INFO 4164 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-08-11 00:32:45.650  INFO 4164 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-11 00:32:45.650  INFO 4164 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6391 ms
+2018-08-11 00:32:46.040  INFO 4164 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-11 00:32:46.040  INFO 4164 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-08-11 00:32:46.040  INFO 4164 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'rewriteFilter' to urls: [/*]
+2018-08-11 00:32:46.040  INFO 4164 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServletRegistration' to [/api/*]
+2018-08-11 00:32:46.119  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : RewriteFilter starting up...
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [2] org.ocpsoft.rewrite.servlet.spi.RewriteLifecycleListener [org.ocpsoft.rewrite.servlet.config.lifecycle.JoinRewriteLifecycleListener<2147483647>, org.ocpsoft.rewrite.servlet.impl.DefaultRewriteLifecycleListener<2147483647>]
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.RequestCycleWrapper [org.ocpsoft.rewrite.servlet.impl.HttpRewriteRequestCycleWrapper<0>]
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.RewriteProvider [org.ocpsoft.rewrite.servlet.impl.DefaultHttpRewriteProvider<0>]
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.RewriteResultHandler [org.ocpsoft.rewrite.servlet.impl.HttpRewriteResultHandler<0>]
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.InboundRewriteProducer [org.ocpsoft.rewrite.servlet.impl.HttpInboundRewriteProducer<0>]
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.OutboundRewriteProducer [org.ocpsoft.rewrite.servlet.impl.HttpOutboundRewriteProducer<0>]
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.servlet.spi.ContextListener []
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.servlet.spi.RequestListener []
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.servlet.spi.RequestParameterProvider []
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.el.spi.ExpressionLanguageProvider []
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.spi.InvocationResultHandler []
+2018-08-11 00:32:46.165  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.common.spi.ServiceEnricher []
+2018-08-11 00:32:46.181  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.ConfigurationCacheProvider [org.ocpsoft.rewrite.servlet.impl.ServletContextConfigurationCacheProvider<0>]
+2018-08-11 00:32:46.181  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.config.ConfigurationProvider [org.ocpsoft.rewrite.annotation.config.AnnotationConfigProvider<100>]
+2018-08-11 00:32:46.181  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.spi.RuleCacheProvider []
+2018-08-11 00:32:46.275  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.GlobalParameterProvider [org.ocpsoft.rewrite.instance.WildcardParameterProvider<0>]
+2018-08-11 00:32:46.337  INFO 4164 --- [localhost-startStop-1] unknown.jul.logger                       : Rewrite 3.4.1.Final initialized.
+2018-08-11 00:32:48.650  INFO 4164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-11 00:32:48.681  INFO 4164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-11 00:32:49.056  INFO 4164 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-11 00:32:49.056  INFO 4164 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-11 00:32:49.056  INFO 4164 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-08-11 00:32:49.197  INFO 4164 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-11 00:32:49.525  INFO 4164 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-11 00:32:49.634  INFO 4164 --- [restartedMain] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2018-08-11 00:32:50.103  INFO 4164 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-08-11 00:32:50.181  INFO 4164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-11 00:32:50.619  INFO 4164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-11 00:32:50.619  INFO 4164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-11 00:32:50.822  INFO 4164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c076515: startup date [Sat Aug 11 00:32:39 ICT 2018]; root of context hierarchy
+2018-08-11 00:32:52.010  INFO 4164 --- [restartedMain] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 427e4aef-f736-4970-9c41-44b5b2993deb
+
+2018-08-11 00:32:52.150  INFO 4164 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-08-11 00:32:52.353  INFO 4164 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f9afd3a, org.springframework.security.web.context.SecurityContextPersistenceFilter@32c27eb5, org.springframework.security.web.header.HeaderWriterFilter@13e759a5, org.springframework.security.web.authentication.logout.LogoutFilter@272a600a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6fb6f57f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3eaee10e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76582ae8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6bb9e7d9, org.springframework.security.web.session.SessionManagementFilter@585c8e71, org.springframework.security.web.access.ExceptionTranslationFilter@52485997, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@291a46ce]
+2018-08-11 00:32:52.713  INFO 4164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-08-11 00:32:52.885  INFO 4164 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-11 00:32:53.306  INFO 4164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServletRegistration'
+2018-08-11 00:32:53.322  INFO 4164 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServletRegistration': initialization started
+2018-08-11 00:32:53.353  INFO 4164 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServletRegistration': initialization completed in 31 ms
+2018-08-11 00:32:53.416  INFO 4164 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2018-08-11 00:32:53.416  INFO 4164 --- [restartedMain] taufik.app.Application                   : Started Application in 15.204 seconds (JVM running for 16.403)
+2018-08-11 00:34:15.734  INFO 1200 --- [restartedMain] taufik.app.Application                   : Starting Application on DESKTOP-UDEKPNN with PID 1200 (D:\Taufik-Project\Project-Upload\src\main\webapp\WEB-INF\classes started by Taufik in D:\Taufik-Project\Project-Upload)
+2018-08-11 00:34:15.749  INFO 1200 --- [restartedMain] taufik.app.Application                   : The following profiles are active: dev
+2018-08-11 00:34:15.952  INFO 1200 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@737b0025: startup date [Sat Aug 11 00:34:15 ICT 2018]; root of context hierarchy
+2018-08-11 00:34:22.660  INFO 1200 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2018-08-11 00:34:22.718  INFO 1200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-11 00:34:22.721  INFO 1200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-08-11 00:34:23.845  INFO 1200 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-08-11 00:34:23.868  INFO 1200 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-11 00:34:23.869  INFO 1200 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7917 ms
+2018-08-11 00:34:24.417  INFO 1200 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServletRegistration' to [/api/*]
+2018-08-11 00:34:24.426  INFO 1200 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-11 00:34:24.429  INFO 1200 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'rewriteFilter' to urls: [/*]
+2018-08-11 00:34:24.507  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : RewriteFilter starting up...
+2018-08-11 00:34:24.560  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [2] org.ocpsoft.rewrite.servlet.spi.RewriteLifecycleListener [org.ocpsoft.rewrite.servlet.impl.DefaultRewriteLifecycleListener<2147483647>, org.ocpsoft.rewrite.servlet.config.lifecycle.JoinRewriteLifecycleListener<2147483647>]
+2018-08-11 00:34:24.561  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.RequestCycleWrapper [org.ocpsoft.rewrite.servlet.impl.HttpRewriteRequestCycleWrapper<0>]
+2018-08-11 00:34:24.562  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.RewriteProvider [org.ocpsoft.rewrite.servlet.impl.DefaultHttpRewriteProvider<0>]
+2018-08-11 00:34:24.578  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.RewriteResultHandler [org.ocpsoft.rewrite.servlet.impl.HttpRewriteResultHandler<0>]
+2018-08-11 00:34:24.579  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.InboundRewriteProducer [org.ocpsoft.rewrite.servlet.impl.HttpInboundRewriteProducer<0>]
+2018-08-11 00:34:24.580  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.OutboundRewriteProducer [org.ocpsoft.rewrite.servlet.impl.HttpOutboundRewriteProducer<0>]
+2018-08-11 00:34:24.584  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.servlet.spi.ContextListener []
+2018-08-11 00:34:24.589  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.servlet.spi.RequestListener []
+2018-08-11 00:34:24.590  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.servlet.spi.RequestParameterProvider []
+2018-08-11 00:34:24.594  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.el.spi.ExpressionLanguageProvider []
+2018-08-11 00:34:24.597  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.spi.InvocationResultHandler []
+2018-08-11 00:34:24.599  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.common.spi.ServiceEnricher []
+2018-08-11 00:34:24.609  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.ConfigurationCacheProvider [org.ocpsoft.rewrite.servlet.impl.ServletContextConfigurationCacheProvider<0>]
+2018-08-11 00:34:24.617  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.config.ConfigurationProvider [org.ocpsoft.rewrite.annotation.config.AnnotationConfigProvider<100>]
+2018-08-11 00:34:24.632  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.spi.RuleCacheProvider []
+2018-08-11 00:34:24.812  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.GlobalParameterProvider [org.ocpsoft.rewrite.instance.WildcardParameterProvider<0>]
+2018-08-11 00:34:24.861  INFO 1200 --- [localhost-startStop-1] unknown.jul.logger                       : Rewrite 3.4.1.Final initialized.
+2018-08-11 00:34:26.607  INFO 1200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-11 00:34:26.653  INFO 1200 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-11 00:34:26.979  INFO 1200 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-11 00:34:26.985  INFO 1200 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-11 00:34:26.990  INFO 1200 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-08-11 00:34:27.329  INFO 1200 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-11 00:34:27.609  INFO 1200 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-11 00:34:27.718  INFO 1200 --- [restartedMain] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2018-08-11 00:34:28.210  INFO 1200 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-08-11 00:34:28.342  INFO 1200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-11 00:34:28.952  INFO 1200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-11 00:34:28.956  INFO 1200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-11 00:34:29.292  INFO 1200 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@737b0025: startup date [Sat Aug 11 00:34:15 ICT 2018]; root of context hierarchy
+2018-08-11 00:34:31.227  INFO 1200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-08-11 00:34:31.483  INFO 1200 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-11 00:34:31.792  INFO 1200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServletRegistration'
+2018-08-11 00:34:31.793  INFO 1200 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServletRegistration': initialization started
+2018-08-11 00:34:31.869  INFO 1200 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServletRegistration': initialization completed in 74 ms
+2018-08-11 00:34:31.897  INFO 1200 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2018-08-11 00:34:31.914  INFO 1200 --- [restartedMain] taufik.app.Application                   : Started Application in 17.111 seconds (JVM running for 18.357)
+2018-08-11 00:35:29.365  INFO 1200 --- [http-nio-8081-exec-10] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.GlobalParameterProvider [org.ocpsoft.rewrite.instance.WildcardParameterProvider<0>]
+2018-08-11 00:36:46.903  INFO 11084 --- [restartedMain] taufik.app.Application                   : Starting Application on DESKTOP-UDEKPNN with PID 11084 (D:\Taufik-Project\Project-Upload\src\main\webapp\WEB-INF\classes started by Taufik in D:\Taufik-Project\Project-Upload)
+2018-08-11 00:36:46.907  INFO 11084 --- [restartedMain] taufik.app.Application                   : The following profiles are active: dev
+2018-08-11 00:36:47.054  INFO 11084 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32f0ea0b: startup date [Sat Aug 11 00:36:47 ICT 2018]; root of context hierarchy
+2018-08-11 00:36:52.010  INFO 11084 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2018-08-11 00:36:52.047  INFO 11084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-11 00:36:52.051  INFO 11084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-08-11 00:36:52.880  INFO 11084 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-08-11 00:36:52.893  INFO 11084 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-11 00:36:52.894  INFO 11084 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5840 ms
+2018-08-11 00:36:53.211  INFO 11084 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServletRegistration' to [/api/*]
+2018-08-11 00:36:53.227  INFO 11084 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-11 00:36:53.227  INFO 11084 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'rewriteFilter' to urls: [/*]
+2018-08-11 00:36:53.281  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : RewriteFilter starting up...
+2018-08-11 00:36:53.322  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [2] org.ocpsoft.rewrite.servlet.spi.RewriteLifecycleListener [org.ocpsoft.rewrite.servlet.config.lifecycle.JoinRewriteLifecycleListener<2147483647>, org.ocpsoft.rewrite.servlet.impl.DefaultRewriteLifecycleListener<2147483647>]
+2018-08-11 00:36:53.322  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.RequestCycleWrapper [org.ocpsoft.rewrite.servlet.impl.HttpRewriteRequestCycleWrapper<0>]
+2018-08-11 00:36:53.322  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.RewriteProvider [org.ocpsoft.rewrite.servlet.impl.DefaultHttpRewriteProvider<0>]
+2018-08-11 00:36:53.322  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.RewriteResultHandler [org.ocpsoft.rewrite.servlet.impl.HttpRewriteResultHandler<0>]
+2018-08-11 00:36:53.322  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.InboundRewriteProducer [org.ocpsoft.rewrite.servlet.impl.HttpInboundRewriteProducer<0>]
+2018-08-11 00:36:53.322  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.servlet.spi.OutboundRewriteProducer [org.ocpsoft.rewrite.servlet.impl.HttpOutboundRewriteProducer<0>]
+2018-08-11 00:36:53.338  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.servlet.spi.ContextListener []
+2018-08-11 00:36:53.338  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.servlet.spi.RequestListener []
+2018-08-11 00:36:53.338  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.servlet.spi.RequestParameterProvider []
+2018-08-11 00:36:53.338  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.el.spi.ExpressionLanguageProvider []
+2018-08-11 00:36:53.338  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.spi.InvocationResultHandler []
+2018-08-11 00:36:53.338  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.common.spi.ServiceEnricher []
+2018-08-11 00:36:53.354  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.ConfigurationCacheProvider [org.ocpsoft.rewrite.servlet.impl.ServletContextConfigurationCacheProvider<0>]
+2018-08-11 00:36:53.366  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.config.ConfigurationProvider [org.ocpsoft.rewrite.annotation.config.AnnotationConfigProvider<100>]
+2018-08-11 00:36:53.374  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [0] org.ocpsoft.rewrite.spi.RuleCacheProvider []
+2018-08-11 00:36:53.616  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Loaded [1] org.ocpsoft.rewrite.spi.GlobalParameterProvider [org.ocpsoft.rewrite.instance.WildcardParameterProvider<0>]
+2018-08-11 00:36:53.687  INFO 11084 --- [localhost-startStop-1] unknown.jul.logger                       : Rewrite 3.4.1.Final initialized.
+2018-08-11 00:36:55.378  INFO 11084 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-11 00:36:55.421  INFO 11084 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-11 00:36:55.621  INFO 11084 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-11 00:36:55.624  INFO 11084 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-11 00:36:55.628  INFO 11084 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-08-11 00:36:55.865  INFO 11084 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-11 00:36:56.124  INFO 11084 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-11 00:36:56.214  INFO 11084 --- [restartedMain] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2018-08-11 00:36:56.627  INFO 11084 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-08-11 00:36:56.730  INFO 11084 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-11 00:36:57.129  INFO 11084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void taufik.web.controller.TestRest.getData()
+2018-08-11 00:36:57.137  INFO 11084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-11 00:36:57.137  INFO 11084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-11 00:36:57.338  INFO 11084 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32f0ea0b: startup date [Sat Aug 11 00:36:47 ICT 2018]; root of context hierarchy
+2018-08-11 00:36:59.593  INFO 11084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-08-11 00:36:59.739  INFO 11084 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-11 00:36:59.940  INFO 11084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServletRegistration'
+2018-08-11 00:36:59.941  INFO 11084 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServletRegistration': initialization started
+2018-08-11 00:36:59.997  INFO 11084 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServletRegistration': initialization completed in 53 ms
+2018-08-11 00:37:00.022  INFO 11084 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2018-08-11 00:37:00.048  INFO 11084 --- [restartedMain] taufik.app.Application                   : Started Application in 13.991 seconds (JVM running for 15.022)
